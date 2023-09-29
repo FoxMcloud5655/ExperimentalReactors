@@ -7,7 +7,7 @@ version="${file.jarVersion}" #mandatory
 displayName="Experimental Reactors" #mandatory
 logoFile="" #optional
 credits="Thanks for this example mod goes to Java"
-authors="Love, Cheese and small house plants" #optional
+authors="QuantumZizo" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
 Safely test reactors from a variety of mods in a creative setting, guaranteed no explosions!"
