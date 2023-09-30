@@ -86,10 +86,13 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
+	maven { url = "https://nexus.covers1624.net/repository/maven-public/" }
 }
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.18.2-40.2.10'
+    implementation fg.deobf("com.brandon3055.brandonscore:BrandonsCore:${mc_version}-${bcore_version}:universal")
+    
 }
 
 jar {
