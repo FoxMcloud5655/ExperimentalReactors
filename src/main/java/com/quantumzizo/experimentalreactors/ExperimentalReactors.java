@@ -10,7 +10,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
-@Mod("experimentalreactors")
+@Mod(ExperimentalReactors.MOD_ID)
 public class ExperimentalReactors {
 	public static final String MOD_ID = "experimentalreactors";
 	
