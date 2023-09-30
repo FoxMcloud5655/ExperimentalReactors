@@ -1,7 +1,6 @@
 package com.quantumzizo.experimentalreactors;
 
 import com.quantumzizo.experimentalreactors.init.ItemInit;
-
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
