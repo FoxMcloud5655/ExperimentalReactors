@@ -1,3 +1,5 @@
 {
-	"item.experimentalreactors.diagnostic_tool": "Diagnostic Tool"
+	"item.experimentalreactors.diagnostic_tool": "Diagnostic Tool",
+	"itemGroup.experimentalreactors": "Experimental Reactors",
+	"block.experimentalreactors.draconic_unlocker": "Draconic Unlocker"
 }

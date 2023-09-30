@@ -1,5 +1,6 @@
 package com.quantumzizo.experimentalreactors;
 
+import com.quantumzizo.experimentalreactors.init.BlockInit;
 import com.quantumzizo.experimentalreactors.init.ItemInit;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
@@ -27,6 +28,7 @@ public class ExperimentalReactors {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		
 		ItemInit.ITEMS.register(bus);
+		BlockInit.BLOCKS.register(bus);
 		
 		MinecraftForge.EVENT_BUS.register(this);
 	}
