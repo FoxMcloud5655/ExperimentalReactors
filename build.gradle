@@ -91,8 +91,9 @@ repositories {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.18.2-40.2.10'
+    implementation fg.deobf("com.brandon3055.draconicevolution:Draconic-Evolution:${mc_version}-${de_version}:universal")
     implementation fg.deobf("com.brandon3055.brandonscore:BrandonsCore:${mc_version}-${bcore_version}:universal")
-    
+    implementation fg.deobf("codechicken:CodeChickenLib:${mc_version}-${ccl_version}:universal")
 }
 
 jar {
@@ -100,7 +101,7 @@ jar {
         attributes([
                 "Specification-Title"     : "experimentalreactors",
                 "Specification-Vendor"    : "quantumzizo",
-                "Specification-Version"   : "1",
+                "Specification-Version"   : "1.0",
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : "experimentalreactors",
